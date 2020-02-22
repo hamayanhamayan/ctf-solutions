@@ -1,0 +1,11 @@
+import texttable as ttb
+import os
+from bs4 import BeautifulSoup
+import HHCTF.util as hutil
+import HHCTF.util as hu
+
+hashed = 'PD9waHAKCgokc3FsX3NlcnZlciA9ICdsb2NhbGhvc3QnOwokc3FsX3VzZXIgPSAnbXlzcWwnOwokc3FsX3Bhc3MgPSAndGhpczFzQVJAbmQwbVBAczV3MHJEIyUnOwokc3FsX2Nvbm4gPSBuZXcgbXlzcWxpKCRzcWxfc2VydmVyLCAkc3FsX3VzZXIsICRzcWxfcGFzcyk7CiRzcWxfY29ubl9sb2dpbiA9IG5ldyBteXNxbGkoJHNxbF9zZXJ2ZXIsICRzcWxfdXNlciwgJHNxbF9wYXNzKTsKCgo/Pgo='
+print(hashed)
+
+raw = hu.from_base64(hashed)
+print(raw)
