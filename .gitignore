@@ -123,3 +123,7 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+util.dir
+util.bak
+util.dat
+ctf.code-workspace

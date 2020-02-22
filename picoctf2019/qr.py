@@ -1,6 +1,0 @@
-import HHCTF.qr as hqr
-
-res = hqr.get_qr("qr.png")
-print(res[0])
-
-#hqr.make_qr("username=hmynhmyn3&amount=-100000000&proof=MOyXJ3AH/jSeexXqnYzI13iKTjSLOcllHQmlB36UAGgnMSAwshH52/+erknD84KKAOpBN1w5NsklZnkPl6VZOSB0GwsxCjB08mGRbXSZbxQaBUBxl3sPLWc0egWiE/EaFTG360rmBC0+kNU8JjRRz1fikQ0g76fHvsjMv8XQ8nFJmeOISEQOMSAwO8vlV9L6J0tz/dfyl0hfGI8ikvt4Tz8Qru20GEKPWhQxCjB3x46m3RdXS11NYX94Cu3g3/FnTA2MubKJOLRbvBkCLjEgMOtpKln3UtNHLsY0vt8UlSdfh/FLRj19Wj0GQ0WxO/cvMQowK6lx87YdKwyppsFsvxq/W6xANzXBdBQ3addBHJAbvyowCjD/yudzlmY2cqNKAbJysLbfMTufpdjE3vdx8aRvHnoDKDEK&hash=76982ecb713544dc1fe13a3dc44a05a54ed39360995ca419af27b9102ee893cc", "out.png")
